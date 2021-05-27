@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM public.ecr.aws/bitnami/python:3.8
 
 # Install app
 WORKDIR /usr/src/app
