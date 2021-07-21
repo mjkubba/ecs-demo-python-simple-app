@@ -6,6 +6,6 @@ app.add_url_rule('/', 'index', say_hello)
 
 if __name__ == "__main__":
     # app.debug = True
-    app.run()
+    app.run(host='0.0.0.0', port=80)
 
 #  pylama:ignore=D100,D103
