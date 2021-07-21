@@ -7,4 +7,5 @@ RUN pip install -r requirements.txt
 
 EXPOSE 80
 
+ENTRYPOINT []
 CMD ["python", "app/main.py"]
